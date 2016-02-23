@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="favicon.ico">
+
+<title>{Title} - EVElution</title>
+
+<link href="css/uikit.min.css" rel="stylesheet">
+<link href="css/nebula.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!--  Main container begin -->
+<div class="uk-container uk-container-center">
+
+<!--  Nav -->
+<div>
+<nav class="uk-navbar">
+    <ul class="uk-navbar-nav">
+        <li class="uk-active"><a href="javascript:void(0)" onclick="$('.container-fluid, .uk-article, .uk-navbar').toggleClass('ubersize'); $('.uk-panel.uk-panel-box').toggleClass('uk-panel-box-primary')"><i class="uk-icon-home uk-margin-small-right"></i>Main</a></li>
+        <li><a href="javascript:void(0)"><i class="uk-icon-gear uk-margin-small-right"></i>Settings</a></li>
+        <li class="uk-parent"><a href="javascript:void(0)" onclick="$('.container-fluid').toggleClass('fullsize')"><i class="uk-icon-navicon uk-margin-small-right"></i>Features</a></li>
+    </ul>
+    
+    <div class="uk-navbar-flip">
+        <ul class="uk-navbar-nav">
+        	<li><a href="javascript:void(0)"><i class="uk-icon-user uk-margin-small-right"></i>Profile</a></li>
+            <li><a href="javascript:void(0)"><i class="uk-icon-sign-out uk-margin-small-right"></i>Logout</a></li>
+        </ul>
+    </div>
+</nav>
+</div>
+
+<!-- Nebula -->
+<div class="universe container-fluid">
+<img class="underlay underlay-bg underlay-bg-one" src="images/background_nebula.jpg">
+<img class="underlay underlay-bg underlay-bg-two" src="images/background_nebula.jpg">
+<img class="underlay underlay-one" src="images/stars_and_lines.png">
+<img class="underlay underlay-two" src="images/stars_and_lines.png">
+</div>
+
+<!-- Sub Menu -->
+<article class="uk-article uk-margin-large-top uk-panel">
+    <h1 class="uk-article-title">Welcome</h1>
+    <p class="uk-article-meta">The first law of robotics - the robot must be blunt. Otherwise, he will not be able to perform routine work for the human, right?</p>
+    <hr class="uk-article-divider">
+</article>
+
+<div class="uk-container">
+<div class="uk-block">
+<div class="uk-grid uk-grid-medium uk-grid-match" data-uk-grid-match="{target:'.content-group'}">
+    <div class="uk-width-medium-1-3">
+        <div class="uk-panel uk-panel-box">
+        	<div class="content-group">
+        	<div class="uk-panel-badge uk-badge uk-badge-success">Exist, but isn't need</div>
+		    <h3 class="uk-panel-title"><i class="uk-icon-sign-in uk-margin-small-right"></i>Register/Sign in</h3>
+		    <p>We don't use registration as normal service. You can register, but this isn't strong necessary, all features can work without registration</p>
+		    <p>Also, if you like some features, you can subscribe to news and updates of one feature (or on all features) on <a href="javascript:void(0)">subscribe section</a>. Of course, you can remove subscribtion every time direct from incoming mail</p>
+		    </div>
+
+			<div class="button-group">
+		    	<a class="uk-button uk-button-primary" href="javascript:void(0)"><i class="uk-icon-sign-in uk-margin-small-right"></i>Sing In</a>
+		    	<a class="uk-button uk-button-primary" href="javascript:void(0)"><i class="uk-icon-user-plus uk-margin-small-right"></i>Register</a>
+		    </div>
+		</div>
+    </div>
+    <div class="uk-width-medium-1-3">
+        <div class="uk-panel uk-panel-box">
+        	<div class="content-group">
+        	<div class="uk-panel-badge uk-badge uk-badge-success">All official</div>
+		    <h3 class="uk-panel-title"><i class="uk-icon-key uk-margin-small-right"></i>Enter API key</h3>
+		    <p>This application use <a href="https://wikipedia.org/wiki/REST" target="blank"><i class="uk-icon-external-link uk-margin-small-right"></i>CREST</a> interface for working with EVE world and with your account information. Also, you can find more information on this additional links:</p>
+		    <ul>
+		    <li><a href="https://developers.eveonline.com/blog" target="_blank"><i class="uk-icon-external-link uk-margin-small-right"></i>Third Party Developer Blog</a></li>
+		    <li><a href="https://eveonline-third-party-documentation.readthedocs.org/en/latest/" target="_blank"><i class="uk-icon-external-link uk-margin-small-right"></i>Third-Party Developer Documentation</a></li>
+		    </ul>
+
+		    <p>Creating, management and access control for yours API keys on this page:</p>
+		    <ul>
+		    <li><a href="https://community.eveonline.com/support/api-key/" target="_blank"><i class="uk-icon-external-link uk-margin-small-right"></i>API Key Management</a></li>
+		    </ul>
+		    </div>
+
+			<div class="button-group">
+		    <a class="uk-button uk-button-primary" href="javascript:void(0)"><i class="uk-icon-tag uk-margin-small-right"></i>Enter/Change API Key</a>
+		    </div>
+		</div>
+    </div>
+    <div class="uk-width-medium-1-3">
+        <div class="uk-panel uk-panel-box">
+        	<div class="content-group">
+        	<div class="uk-panel-badge uk-badge uk-badge-success">No limit to perfection</div>
+		    <h3 class="uk-panel-title"><i class="uk-icon-code-fork uk-margin-small-right"></i>Open source</h3>
+		    <p>This is open source application. You can send mail to developers and you can join to developers. Also you can offer their ideas, for it just sent mail to maillist group address (see Contacts section on GitHub). Special links:</p>
+		    <ul>
+		    <li><a href="https://github.com/wirtwelt/evelution" target="_blank"><i class="uk-icon-github uk-margin-small-right"></i>GitHub repository page</a></li>
+		    <li><a href="https://github.com/wirtwelt/evelution/wiki" target="_blank"><i class="uk-icon-github-alt uk-margin-small-right"></i>Project Wiki</a></li>
+		    </ul>
+
+		    <p>For mail sending:</p>
+		    <ul>
+		    <li><a href="mailto:wirtwelt@users.noreply.github.com"><i class="uk-icon-envelope-o uk-margin-small-right"></i>wirtwelt@users.noreply.github.com</a></li>
+		    </ul>
+		    </div>
+		    
+		    <div class="button-group">
+		    <a class="uk-button uk-button-primary" href="javascript:void(0)"><i class="uk-icon-paper-plane-o uk-margin-small-right"></i>Send mail from site</a>
+		    </div>
+		</div>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- Features -->
+
+<article class="uk-article uk-panel">
+    <h1 class="uk-article-title">Features</h1>
+    <p class="uk-article-meta">A complete list of features. Some of them may be in progress or beta-test state. Check it out!</p>
+    <hr class="uk-article-divider">
+</article>
+
+<div class="uk-container">
+<div class="uk-block">
+<div class="uk-grid uk-grid-small uk-grid-match" data-uk-grid-match="{target:'.content-group'}">
+    <div class="uk-width-medium-1-4">
+        <div class="uk-panel uk-panel-box">
+        	<div class="content-group">
+        	<div class="uk-panel-badge uk-badge uk-badge-success">Complete</div>
+		    <h3 class="uk-panel-title"><i class="uk-icon-arrow-circle-o-right uk-margin-small-right"></i>Feature 4</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis dictum imperdiet. 
+			Sed facilisis, leo pulvinar dictum luctus, lacus sem luctus odio, non dictum sem nisl vitae nisi. 
+			Pellentesque nunc. Fusce convallis auctor molestie. Ut luctus metus eget facilisis faucibus. 
+			Proin ligula enim, venenatis quis scelerisque eu, feugiat vitae risus. 
+			In malesuada eget justo a commodo.</p>
+			</div>
+			<div class="stats-group uk-align-right">
+				<i class="uk-icon-eye" title="Views">337</i>&nbsp;&nbsp;
+				<i class="uk-icon-thumbs-o-up" title="Likes">84</i>&nbsp;&nbsp;
+				<i class="uk-icon-thumbs-o-down" title="Dislikes">138</i>
+			</div>
+		</div>
+    </div>
+    <div class="uk-width-medium-1-4">
+        <div class="uk-panel uk-panel-box">
+        	<div class="content-group">
+        	<div class="uk-panel-badge uk-badge uk-badge-danger">In progress</div>
+		    <h3 class="uk-panel-title"><i class="uk-icon-arrow-circle-o-right uk-margin-small-right"></i>Feature 8</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis dictum imperdiet. 
+			Sed facilisis, leo pulvinar dictum luctus, lacus sem luctus odio, non dictum sem nisl vitae nisi. 
+			Pellentesque nunc ligula.</p>
+			</div>
+			<div class="stats-group uk-align-right">
+				<i class="uk-icon-eye" title="Views">12</i>&nbsp;&nbsp;
+				<i class="uk-icon-thumbs-o-up" title="Likes">2</i>&nbsp;&nbsp;
+				<i class="uk-icon-thumbs-o-down" title="Dislikes">6</i>
+			</div>
+		</div>
+    </div>
+    <div class="uk-width-medium-1-4">
+        <div class="uk-panel uk-panel-box">
+        	<div class="content-group">
+        	<div class="uk-panel-badge uk-badge uk-badge-warning">Testing</div>
+		    <h3 class="uk-panel-title"><i class="uk-icon-arrow-circle-o-right uk-margin-small-right"></i>Feature 12</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis dictum imperdiet. 
+			Sed facilisis, leo lacinia laoreet ornare sit amet, venenatis in nisi. 
+			Fusce convallis auctor molestie. Ut luctus metus eget facilisis faucibus. 
+			Proin ligula enim, venenatis quis scelerisque eu, feugiat vitae risus. 
+			In malesuada eget justo a commodo.</p>
+			</div>
+			<div class="stats-group uk-align-right">
+				<i class="uk-icon-eye" title="Views">126</i>&nbsp;&nbsp;
+				<i class="uk-icon-thumbs-o-up" title="Likes">3</i>&nbsp;&nbsp;
+				<i class="uk-icon-thumbs-o-down" title="Dislikes">11</i>
+			</div>
+		</div>
+    </div>
+    <div class="uk-width-medium-1-4">
+        <div class="uk-panel uk-panel-box">
+        	<div class="content-group">
+        	<div class="uk-panel-badge uk-badge uk-badge-success">Complete</div>
+		    <h3 class="uk-panel-title"><i class="uk-icon-arrow-circle-o-right uk-margin-small-right"></i>Feature 18</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis dictum imperdiet. 
+			Sed facilisis, leo pulvinar dictum luctus, lacus sem luctus odio, non dictum sem nisl vitae nisi. 
+			Pellentesque nunc ligula, a commodo.</p>
+			</div>
+			<div class="stats-group uk-align-right">
+				<i class="uk-icon-eye" title="Views">284</i>&nbsp;&nbsp;
+				<i class="uk-icon-thumbs-o-up" title="Likes">37</i>&nbsp;&nbsp;
+				<i class="uk-icon-thumbs-o-down" title="Dislikes">55</i>
+			</div>
+		</div>
+    </div>
+    
+	<div class="uk-width-medium-1-1 uk-margin-bottom"></div>
+
+    <div class="uk-width-medium-1-4">
+        <div class="uk-panel uk-panel-box">
+        	<div class="content-group">
+        	<div class="uk-panel-badge uk-badge uk-badge-danger">In progress</div>
+		    <h3 class="uk-panel-title"><i class="uk-icon-arrow-circle-o-right uk-margin-small-right"></i>Feature 8</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis dictum imperdiet. 
+			Sed facilisis, leo pulvinar dictum luctus, lacus sem luctus odio, non dictum sem nisl vitae nisi. 
+			Pellentesque nunc ligula.</p>
+			</div>
+			<div class="stats-group uk-align-right">
+				<i class="uk-icon-eye" title="Views">12</i>&nbsp;&nbsp;
+				<i class="uk-icon-thumbs-o-up" title="Likes">2</i>&nbsp;&nbsp;
+				<i class="uk-icon-thumbs-o-down" title="Dislikes">6</i>
+			</div>
+		</div>
+    </div>
+    <div class="uk-width-medium-1-4">
+        <div class="uk-panel uk-panel-box">
+        	<div class="content-group">
+        	<div class="uk-panel-badge uk-badge uk-badge-success">Complete</div>
+		    <h3 class="uk-panel-title"><i class="uk-icon-arrow-circle-o-right uk-margin-small-right"></i>Feature 18</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis dictum imperdiet. 
+			Sed facilisis, leo pulvinar dictum luctus, lacus sem luctus odio, non dictum sem nisl vitae nisi. 
+			Pellentesque nunc ligula, a commodo.</p>
+			</div>
+			<div class="stats-group uk-align-right">
+				<i class="uk-icon-eye" title="Views">284</i>&nbsp;&nbsp;
+				<i class="uk-icon-thumbs-o-up" title="Likes">37</i>&nbsp;&nbsp;
+				<i class="uk-icon-thumbs-o-down" title="Dislikes">55</i>
+			</div>
+		</div>
+    </div>
+    <div class="uk-width-medium-1-4">
+        <div class="uk-panel uk-panel-box">
+        	<div class="content-group">
+        	<div class="uk-panel-badge uk-badge uk-badge-warning">Testing</div>
+		    <h3 class="uk-panel-title"><i class="uk-icon-arrow-circle-o-right uk-margin-small-right"></i>Feature 12</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis dictum imperdiet. 
+			Sed facilisis, leo lacinia laoreet ornare sit amet, venenatis in nisi. 
+			Fusce convallis auctor molestie. Ut luctus metus eget facilisis faucibus. 
+			Proin ligula enim, venenatis quis scelerisque eu, feugiat vitae risus. 
+			In malesuada eget justo a commodo.</p>
+			</div>
+			<div class="stats-group uk-align-right">
+				<i class="uk-icon-eye" title="Views">126</i>&nbsp;&nbsp;
+				<i class="uk-icon-thumbs-o-up" title="Likes">3</i>&nbsp;&nbsp;
+				<i class="uk-icon-thumbs-o-down" title="Dislikes">11</i>
+			</div>
+		</div>
+    </div>
+</div>
+</div>
+</div>
+
+<!--  Main container end -->
+</div>
+
+<!--  Scripts -->
+<script src="js/jquery-2.2.1.min.js"></script>
+<script src="js/uikit.min.js"></script>
+<script src="js/components/grid.min.js"></script>
+
+</body>
+</html>
